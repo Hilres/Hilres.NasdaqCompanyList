@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NasdaqCompanyList", "NasdaqCompanyList\NasdaqCompanyList.csproj", "{E99CB401-44D9-403E-9598-0E58C89CB547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NasdaqCompanyList.Test", "NasdaqCompanyList.Test\NasdaqCompanyList.Test.csproj", "{0F14F4A9-B51D-4CBE-9FB8-74DAA8ACC3EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E99CB401-44D9-403E-9598-0E58C89CB547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99CB401-44D9-403E-9598-0E58C89CB547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99CB401-44D9-403E-9598-0E58C89CB547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99CB401-44D9-403E-9598-0E58C89CB547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F14F4A9-B51D-4CBE-9FB8-74DAA8ACC3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F14F4A9-B51D-4CBE-9FB8-74DAA8ACC3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F14F4A9-B51D-4CBE-9FB8-74DAA8ACC3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F14F4A9-B51D-4CBE-9FB8-74DAA8ACC3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C7F3216-533F-4790-8922-5F8AE981C326}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>Hilres.NasdaqCompanyList</RootNamespace>
+    <AssemblyName>Hilres.NasdaqCompanyList</AssemblyName>
+    <Authors>Dan Hilderbrand</Authors>
+    <Company>Hilres</Company>
+    <Version>0.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Hilres/Hilres.NasdaqCompanyList</PackageProjectUrl>
+    <Description>This will retrieve a list of stock symbols for the NASDAQ, NYSE or AMEX exchanges.
+</Description>
+    <PackageTags>.NET c# Stock Symbol</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\NasdaqCompanyList.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hilres.CSV" Version="0.1.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

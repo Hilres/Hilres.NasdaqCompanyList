@@ -4,7 +4,7 @@
 
 This will retrieve a list of stock symbols for the NASDAQ, NYSE or AMEX exchanges.  The source of the data is from the Nasdaq website.  The data columns are "Symbol", "Name", "LastSale", "MarketCap", "IPOyear", "Sector", "industry" and "Summary Quote".
 
-Website: https://www.nasdaq.com/screening/companies-by-industry.aspx
+Data from: https://www.nasdaq.com/screening/company-list.aspx
 
 ## Using Hilres.NasdaqCompanyList
 

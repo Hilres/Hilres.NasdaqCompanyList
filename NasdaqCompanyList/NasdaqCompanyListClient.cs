@@ -9,7 +9,6 @@ namespace Hilres.NasdaqCompanyList
     using System.Linq;
     using System.Net;
     using System.Threading.Tasks;
-    using Hilres.CSV;
 
     /// <summary>
     /// Nasdaq company list client class.
@@ -23,7 +22,7 @@ namespace Hilres.NasdaqCompanyList
         /// <returns>List of companies.</returns>
         public async Task<IEnumerable<Company>> GetCompanyListAsync(ExchangeSymbol exchange)
         {
-            string url = $"https://www.nasdaq.com/screening/companies-by-name.aspx?exchange={exchange}&render=download";
+            string url = $"https://old.nasdaq.com/screening/companies-by-name.aspx?exchange={exchange}&render=download";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Headers.Add(HttpRequestHeader.AcceptEncoding, "gzip, deflate, br");
@@ -52,7 +51,8 @@ namespace Hilres.NasdaqCompanyList
             }
 
             //// "Symbol","Name","LastSale","MarketCap","IPOyear","Sector","industry","Summary Quote",
-            //// https://www.nasdaq.com/screening/companies-by-industry.aspx
+            //// https://old.nasdaq.com/screening/companies-by-industry.aspx
+            //// https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&download=true
         }
     }
 }

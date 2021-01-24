@@ -15,7 +15,7 @@ namespace Hilres.NasdaqCompanyList.Test
     public class NasdaqCompanyListClientTest
     {
         /// <summary>
-        /// Test get company list
+        /// Test get company list.
         /// </summary>
         /// <param name="exchange">Exchange to test.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous unit test.</returns>

@@ -1,6 +1,6 @@
-# Gets stock symbols from the NASDAQ website
+**_Archived_** . . . The URL does not work.
 
-**The URL does not work.  This project has been archived.**
+# Gets stock symbols from the NASDAQ website
 
 This will retrieve a list of stock symbols for the NASDAQ, NYSE or AMEX exchanges.  The source of the data is from the Nasdaq website.  The data columns are "Symbol", "Name", "LastSale", "MarketCap", "IPOyear", "Sector", "industry" and "Summary Quote".
 
